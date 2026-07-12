@@ -1,26 +1,26 @@
 class Mar < Formula
   desc "Local-first project memory: Markdown docs + kanban tasks"
   homepage "https://github.com/statikowsky/mar"
-  version "0.5.0"
+  version "0.5.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/statikowsky/mar/releases/download/v0.5.0/mar_darwin_arm64.tar.gz"
-      sha256 "0f2d181cd4fde42ac59b52f9f6e367bfd6bbe4a96674639f7bbab10f6069f972"
+      url "https://github.com/statikowsky/mar/releases/download/v0.5.1/mar_darwin_arm64.tar.gz"
+      sha256 "2cf808d584b0f22d0c02b1d06a6b73c2ca44e388a0b5ccc08eed76f937478eff"
     else
-      url "https://github.com/statikowsky/mar/releases/download/v0.5.0/mar_darwin_amd64.tar.gz"
-      sha256 "bb402dacc21e424c4f46319ae5cdf692774c2ffa1c5cbe88c40cb0fe5c419705"
+      url "https://github.com/statikowsky/mar/releases/download/v0.5.1/mar_darwin_amd64.tar.gz"
+      sha256 "fadfc8c957e96c7376853fd6f40c01ab3ce86ee024e5c9bf5a31353cc2ca3b73"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/statikowsky/mar/releases/download/v0.5.0/mar_linux_arm64.tar.gz"
-      sha256 "c05bde62cb6ef49eaa30de7fab839b7d05e670b1c9c0c850ad6a440805c3fad2"
+      url "https://github.com/statikowsky/mar/releases/download/v0.5.1/mar_linux_arm64.tar.gz"
+      sha256 "8168f9c181bd91cb6867c66b6cd1b42fc8f2e0aba7916925f15240674c67ae53"
     else
-      url "https://github.com/statikowsky/mar/releases/download/v0.5.0/mar_linux_amd64.tar.gz"
-      sha256 "e7dce7a581a74f8947799886091ff266d843ec8b8631081e388f86349b945cef"
+      url "https://github.com/statikowsky/mar/releases/download/v0.5.1/mar_linux_amd64.tar.gz"
+      sha256 "fed6693e5c81c3aa31e2014d36afa67d32bfa7c5f6c71121cecc44c16377ff2d"
     end
   end
 
